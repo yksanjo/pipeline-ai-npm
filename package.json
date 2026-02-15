@@ -1,0 +1,29 @@
+{
+  "name": "pipeline-ai",
+  "version": "1.0.0",
+  "description": "🤖 Generate CI/CD pipelines using AI - Node.js library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Tests not implemented\""
+  },
+  "keywords": [
+    "cicd",
+    "pipeline",
+    "github-actions",
+    "gitlab-ci",
+    "ai",
+    "automation"
+  ],
+  "author": "yksanjo",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.0"
+  }
+}
